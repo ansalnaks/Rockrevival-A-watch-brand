@@ -13,28 +13,28 @@ function Footer() {
                 <div className='footer-links'>
                     <div>
                         <h5>Collections</h5>
-                        <a href="">Men</a>
-                        <a href="">Women</a>
-                        <a href="">Limited Edition</a>
+                        <a href="#">Men</a>
+                        <a href="#">Women</a>
+                        <a href="#">Limited Edition</a>
                     </div>
                     <div>
                         <h5>Company</h5>
-                        <a href="">About us</a>
-                        <a href="">Heritage</a>
-                        <a href="">Careers</a>
+                        <a href="#">About us</a>
+                        <a href="#">Heritage</a>
+                        <a href="#">Careers</a>
                     </div>
                     <div>
                         <h5>Legal</h5>
-                        <a href="">Privacy Notice</a>
-                        <a href="">Cookie Notice</a>
-                        <a href="">Cookie Settings</a>
-                        <a href="">Terms of use</a>
+                        <a href="#">Privacy Notice</a>
+                        <a href="#">Cookie Notice</a>
+                        <a href="#">Cookie Settings</a>
+                        <a href="#">Terms of use</a>
                     </div>
                     <div>
                         <h5>Support</h5>
-                        <a href="">Contact</a>
-                        <a href="">Warrenty</a>
-                        <a href="">Service Centers</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Warrenty</a>
+                        <a href="#">Service Centers</a>
                     </div>
                     <div className="rr-newsletter">
                         <h2>Join the RR Family</h2>
