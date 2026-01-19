@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Container } from 'react-bootstrap'
-import { Heart, List, Search ,Bag,X} from 'react-bootstrap-icons'
+import { List,X} from 'react-bootstrap-icons'
 import logorockre from '../../src/assets/logorockre-removebg-preview.png'
 import './style.css'
 
