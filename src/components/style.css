@@ -194,7 +194,7 @@
     letter-spacing: 1px;
 }
 
-.footer-links a {
+/* .footer-links footer-link {
     display: block;
     color: #fff;
     text-decoration: none;
@@ -202,7 +202,19 @@
     font-size: 16px;
 }
 
-.footer-links a:hover {
+.footer-links footer-link:hover {
+    color: #d4af37;
+} */
+
+.footer-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.footer-link:hover {
     color: #d4af37;
 }
 
