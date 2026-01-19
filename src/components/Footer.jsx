@@ -1,6 +1,6 @@
 
 import { Container } from 'react-bootstrap'
-import { Facebook, Instagram, Twitter, Youtube } from 'react-bootstrap-icons'
+import { Facebook, Instagram, Link, Twitter, Youtube } from 'react-bootstrap-icons'
 
 function Footer() {
     return (
@@ -13,28 +13,28 @@ function Footer() {
                 <div className='footer-links'>
                     <div>
                         <h5>Collections</h5>
-                        <a href="#">Men</a>
-                        <a href="#">Women</a>
-                        <a href="#">Limited Edition</a>
+                        <Link to="/men">Men</Link>
+                        <Link to="/women">Women</Link>
+                        <Link to="/ls">Limited Edition</Link>
                     </div>
                     <div>
                         <h5>Company</h5>
-                        <a href="#">About us</a>
-                        <a href="#">Heritage</a>
-                        <a href="#">Careers</a>
+                        <Link to="/about">About us</Link>
+                        <Link to="/her">Heritage</Link>
+                        <Link to="/acreer">Careers</Link>
                     </div>
                     <div>
                         <h5>Legal</h5>
-                        <a href="#">Privacy Notice</a>
-                        <a href="#">Cookie Notice</a>
-                        <a href="#">Cookie Settings</a>
-                        <a href="#">Terms of use</a>
+                        <Link to="/poli">Privacy Notice</Link>
+                        <Link to="/cook">Cookie Notice</Link>
+                        <Link to="/sett">Cookie Settings</Link>
+                        <Link to="/tou">Terms of use</Link>
                     </div>
                     <div>
                         <h5>Support</h5>
-                        <a href="#">Contact</a>
-                        <a href="#">Warrenty</a>
-                        <a href="#">Service Centers</a>
+                        <Link to="/contact">Contact</Link>
+                        <Link to="/warr">Warrenty</Link>
+                        <Link to="/service">Service Centers</Link>
                     </div>
                     <div className="rr-newsletter">
                         <h2>Join the RR Family</h2>
